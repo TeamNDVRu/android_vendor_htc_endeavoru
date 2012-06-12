@@ -50,7 +50,26 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/firmware/fmc_init_1283.1.bts:system/etc/firmware/fmc_init_1283.1.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/fmc_init_1283.2.bts:system/etc/firmware/fmc_init_1283.2.bts \
   vendor/htc/endeavoru/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
+  vendor/htc/endeavoru/proprietary/bin/agpsd:system/bin/agpsd \
   vendor/htc/endeavoru/proprietary/bin/akmd:system/bin/akmd \
+  vendor/htc/endeavoru/proprietary/bin/atpipe_plain:system/bin/atpipe_plain \
+  vendor/htc/endeavoru/proprietary/bin/auto_hslp_keystore.bks:system/bin/auto_hslp_keystore.bks\
+  vendor/htc/endeavoru/proprietary/bin/cand:system/bin/cand \
+  vendor/htc/endeavoru/proprietary/bin/client_keystore.bks:system/bin/client_keystore.bks \
+  vendor/htc/endeavoru/proprietary/bin/cluster:system/bin/cluster \
+  vendor/htc/endeavoru/proprietary/bin/cluster_get.sh:system/bin/cluster_get.sh \
+  vendor/htc/endeavoru/proprietary/bin/cluster_set.sh:system/bin/cluster_set.sh \
+  vendor/htc/endeavoru/proprietary/bin/hdcp_test:system/bin/hdcp_test \
+  vendor/htc/endeavoru/proprietary/bin/hdmid:system/bin/hdmid \
+  vendor/htc/endeavoru/proprietary/bin/hotplug:system/bin/hotplug \
+  vendor/htc/endeavoru/proprietary/bin/iw:system/bin/iw \
+  vendor/htc/endeavoru/proprietary/bin/nvtest:system/bin/nvtest \
+  vendor/htc/endeavoru/proprietary/bin/logcat2:system/bin/logcat2 \
+  vendor/htc/endeavoru/proprietary/bin/omxplayer2:system/bin/omxplayer2 \
+  vendor/htc/endeavoru/proprietary/bin/SuplConfig.spl:system/bin/SuplConfig.spl \
+  vendor/htc/endeavoru/proprietary/bin/tegrastats:system/bin/tegrastats \
+  vendor/htc/endeavoru/proprietary/bin/tf_daemon:system/bin/tf_daemon \
+  vendor/htc/endeavoru/proprietary/bin/xaplay:system/bin/xaplay \
   vendor/htc/endeavoru/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/endeavoru/proprietary/lib/libril-icera.so:system/lib/libril-icera.so \
   vendor/htc/endeavoru/proprietary/bin/fild:system/bin/fild \
@@ -59,6 +78,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/getnvm.sh:system/bin/getnvm.sh \
   vendor/htc/endeavoru/proprietary/bin/IMCdownload:system/bin/IMCdownload \
   vendor/htc/endeavoru/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
+  vendor/htc/endeavoru/proprietary/bin/patch-X.0.ce:system/bin/patch-X.0.ce \
   vendor/htc/endeavoru/proprietary/bin/poweroff_modem.sh:system/bin/poweroff_modem.sh \
   vendor/htc/endeavoru/proprietary/bin/poweron_modem_hboot.sh:system/bin/poweron_modem_hboot.sh \
   vendor/htc/endeavoru/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
