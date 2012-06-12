@@ -67,6 +67,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/iw:system/bin/iw \
   vendor/htc/endeavoru/proprietary/bin/nvtest:system/bin/nvtest \
   vendor/htc/endeavoru/proprietary/bin/logcat2:system/bin/logcat2 \
+  vendor/htc/endeavoru/proprietary/bin/htcfs:system/bin/htcfs \
+  vendor/htc/endeavoru/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
   vendor/htc/endeavoru/proprietary/bin/omxplayer2:system/bin/omxplayer2 \
   vendor/htc/endeavoru/proprietary/bin/SuplConfig.spl:system/bin/SuplConfig.spl \
   vendor/htc/endeavoru/proprietary/bin/tegrastats:system/bin/tegrastats \
