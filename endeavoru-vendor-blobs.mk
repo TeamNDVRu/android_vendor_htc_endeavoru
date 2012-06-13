@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/snd3008:system/bin/snd3008 \
   vendor/htc/endeavoru/proprietary/bin/rfaudio:system/bin/rfaudio \
   vendor/htc/endeavoru/proprietary/bin/memlock:system/bin/memlock \
+  vendor/htc/endeavoru/proprietary/bin/l2_profile_exchange:system/bin/l2_profile_exchange \
   vendor/htc/endeavoru/proprietary/bin/netHDencode:system/bin/netHDencode \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
   vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
