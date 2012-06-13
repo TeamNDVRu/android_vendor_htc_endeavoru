@@ -40,7 +40,7 @@ Base_GPS_Week: 570
 // Max Log Filesize in kB. Set to ensure that the MSL log does not take up too much file system space.
 // Value in kB. Min value: 1. Max value: 1048576 (1GB). Default value: 102400 (102400kB = 100 MB). Logging is disabled once
 // maximum file size is reached.
-Log_Max_Size: 102400
+Log_Max_Size: 1024
 
 // Logging severity threshold. Set to match a severity to ensure that log entries labeled with this severity (or lower) are
 // included within your log (default 1 - Errors). Severity levels follow:
@@ -50,7 +50,7 @@ Log_Max_Size: 102400
 // 3 - Information: Useful data regarding flow of the code.
 // 4 - Trace: Supports RxN internal debugging only.
 // Min value: 0. Max Value 4. Default value: 1.
-Log_Sev_Threshold: 4
+Log_Sev_Threshold: 1
 
 // Log zone mask. Log entries can be separated by zone (in addition to severity). Only if log entries with specified
 // zone match up with the mask provided below will these entries be logged (regardless of severity).
@@ -67,7 +67,7 @@ Log_Zone_Mask: 0xFFFF
 // Vendor ID. Rx Networks will provide a vendor ID to each customer to support licensing and access to PGPS seeds
 // and clock updates.
 // A default developer vendor ID that is used for evaluation purposes is "evaluation".
-Vendor_ID: evaluation
+Vendor_ID: gr7apkBg
 
 // License Key file path. Path to the RxN license key file that is used to support evaluation or licensed product use.
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
@@ -116,7 +116,7 @@ URE_Threshold: 100
 
 // How frequently to check the seed for required clock or seed updates.
 // Value in sec. Min value: 60. Max value: 3600. Default 600.
-System_Check_Freq: 240
+System_Check_Freq: 3600
 
 // ---------------------------------
 // Autonomous Mode Specific Elements
@@ -140,7 +140,7 @@ Sec_Key_Path: /system/etc/gps/RXN/security.key
 
 // Model ID. Each vendor should specify a model ID to support access to PGPS seeds and clock updates.
 // A default model ID is provided.
-Model_ID: DefaultModel
+Model_ID: HTC_Endeavor
 
 // Seed Host Format Field. Specifies the format of the PGPS seed DNS entries. The '%' char within this
 // field will be replaced by 1 - N where 'N' is specified as the Seed_Max_Host_Idx (see below).
@@ -184,7 +184,7 @@ SNTP_Retry_Max: 3
 
 // Duration till the next set of retries to SNTP server after SNTP_Retry_Max failures have been reached.
 // Value in sec. Min value: Greater than System_Check_Freq. Max value: 604800. Default value: 86400.
-SNTP_Retry_Timer: 300
+SNTP_Retry_Timer: 86400
 
 // Maximum number of failed retry, before stopping further seed downloads until Seed_Retry_Timer has elapsed.
 // Min value: 0. Max value: 10. Default value: 3.
@@ -196,7 +196,7 @@ Seed_Retry_Period: 300
 
 // Duration till the next set of retries to seed server after Seed_Retry_Max failures have been reached.
 // Value in sec. Min value: Greater than System_Check_Freq. Max value: 604800. Default value: 86400.
-Seed_Retry_Timer: 300
+Seed_Retry_Timer: 86400
 
 // If set to 1, download operations will only occur when a network connection is available. If set to 0 
 // download operations will not verify network connection. This is currently only fully implemented in Android.

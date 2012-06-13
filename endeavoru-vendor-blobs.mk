@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/endeavoru/proprietary/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \
   vendor/htc/endeavoru/proprietary/bin/rild:system/bin/rild \
   vendor/htc/endeavoru/proprietary/bin/RXN_IntApp:system/bin/RXN_IntApp \
   vendor/htc/endeavoru/proprietary/etc/gps/agps.truststore:system/etc/gps/agps.truststore \
@@ -42,6 +41,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libmcphalgps.so:system/lib/libmcphalgps.so \
   vendor/htc/endeavoru/proprietary/bin/navl_server:system/bin/navl_server \
   vendor/htc/endeavoru/proprietary/bin/cplc_main:system/bin/cplc_main \
+  vendor/htc/endeavoru/proprietary/bin/alsa_amixer:system/bin/alsa_amixer \
+  vendor/htc/endeavoru/proprietary/bin/alsa_aplay:system/bin/alsa_aplay \
+  vendor/htc/endeavoru/proprietary/bin/alsa_ctl:system/bin/alsa_ctl \
+  vendor/htc/endeavoru/proprietary/bin/audioloop:system/bin/audioloop \
+  vendor/htc/endeavoru/proprietary/bin/snd3008:system/bin/snd3008 \
+  vendor/htc/endeavoru/proprietary/bin/rfaudio:system/bin/rfaudio \
   vendor/htc/endeavoru/proprietary/bin/memlock:system/bin/memlock \
   vendor/htc/endeavoru/proprietary/bin/netHDencode:system/bin/netHDencode \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
@@ -100,6 +105,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libfmchr.so:system/lib/libfmchr.so \
   vendor/htc/endeavoru/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
   vendor/htc/endeavoru/proprietary/lib/libfmstack.so:system/lib/libfmstack.so \
+  vendor/htc/endeavoru/proprietary/lib/libaddrsdetection.so:system/lib/libaddrsdetection.so \
   vendor/htc/endeavoru/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
   vendor/htc/endeavoru/proprietary/lib/libnvos.so:system/lib/libnvos.so \
   vendor/htc/endeavoru/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
@@ -167,6 +173,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4:system/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4 \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5:system/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5 \
+  vendor/htc/endeavoru/proprietary/etc/firmware/vac_config.ini:system/etc/firmware/vac_config.ini \
   vendor/htc/endeavoru/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/htc/endeavoru/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
   vendor/htc/endeavoru/proprietary/lib/libscalado.so:system/lib/libscalado.so \
@@ -234,6 +241,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_HP.txt:system/etc/soundimage/Sound_Voip_Original_HP.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_REC.txt:system/etc/soundimage/Sound_Voip_Original_REC.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_SPK.txt:system/etc/soundimage/Sound_Voip_Original_SPK.txt \
+  vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_BT_AEC.txt:system/etc/soundimage/Sound_Voip_Original_BT_AEC.txt \
+  vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_HP_AEC.txt:system/etc/soundimage/Sound_Voip_Original_HP_AEC.txt \
+  vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_REC_AEC.txt:system/etc/soundimage/Sound_Voip_Original_REC_AEC.txt \
+  vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt:system/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
   vendor/htc/endeavoru/proprietary/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg \
   vendor/htc/endeavoru/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:system/etc/soundimage/srsfx_trumedia_51.cfg \
