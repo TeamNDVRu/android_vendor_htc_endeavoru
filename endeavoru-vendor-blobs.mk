@@ -103,9 +103,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/mknod:system/bin/mknod \
   vendor/htc/endeavoru/proprietary/etc/Flash_Loader.conf:system/etc/Flash_Loader.conf \
   vendor/htc/endeavoru/proprietary/etc/QUO_6260.fls.clean:system/etc/QUO_6260.fls.clean \
-  vendor/htc/endeavoru/proprietary/lib/libfmchr.so:system/lib/libfmchr.so \
-  vendor/htc/endeavoru/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
-  vendor/htc/endeavoru/proprietary/lib/libfmstack.so:system/lib/libfmstack.so \
   vendor/htc/endeavoru/proprietary/lib/libaddrsdetection.so:system/lib/libaddrsdetection.so \
   vendor/htc/endeavoru/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
   vendor/htc/endeavoru/proprietary/lib/libnvos.so:system/lib/libnvos.so \
