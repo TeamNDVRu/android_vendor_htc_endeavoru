@@ -53,14 +53,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
   vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
   vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
-  vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_10.4.27.bts:system/etc/firmware/TIInit_10.4.27.bts \
-  vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_10.5.20.bts:system/etc/firmware/TIInit_10.5.20.bts \
+  vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
+  vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts\
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
+  vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_12.7.27.bts:system/etc/firmware/TIInit_12.7.27.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/WL128x_2.21_1.1.bts:system/etc/firmware/WL128x_2.21_1.1.bts \
-  vendor/htc/endeavoru/proprietary/etc/firmware/fm_rx_init_1283.1.bts:system/etc/firmware/fm_rx_init_1283.1.bts \
-  vendor/htc/endeavoru/proprietary/etc/firmware/fm_rx_init_1283.2.bts:system/etc/firmware/fm_rx_init_1283.2.bts \
-  vendor/htc/endeavoru/proprietary/etc/firmware/fmc_init_1283.1.bts:system/etc/firmware/fmc_init_1283.1.bts \
-  vendor/htc/endeavoru/proprietary/etc/firmware/fmc_init_1283.2.bts:system/etc/firmware/fmc_init_1283.2.bts \
   vendor/htc/endeavoru/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
   vendor/htc/endeavoru/proprietary/bin/agpsd:system/bin/agpsd \
   vendor/htc/endeavoru/proprietary/bin/akmd:system/bin/akmd \
@@ -169,8 +166,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
-  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4:system/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r4 \
-  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5:system/etc/firmware/ti-connectivity/wl128x-fw-mr.bin.r5 \
+  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
+  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin \
   vendor/htc/endeavoru/proprietary/etc/firmware/vac_config.ini:system/etc/firmware/vac_config.ini \
   vendor/htc/endeavoru/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/htc/endeavoru/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
