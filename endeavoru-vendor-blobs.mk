@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
   vendor/htc/endeavoru/proprietary/bin/patch-X.0.ce:system/bin/patch-X.0.ce \
   vendor/htc/endeavoru/proprietary/bin/poweroff_modem.sh:system/bin/poweroff_modem.sh \
-  vendor/htc/endeavoru/proprietary/bin/start_modem.sh:system/bin/start_modem.sh \
   vendor/htc/endeavoru/proprietary/bin/InjectionTool:system/bin/InjectionTool \
   vendor/htc/endeavoru/proprietary/bin/IMCdownload:system/bin/IMCdownload \
   vendor/htc/endeavoru/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
