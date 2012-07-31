@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/endeavoru/proprietary/bin/RXN_IntApp:system/bin/RXN_IntApp \
-  vendor/htc/endeavoru/proprietary/bin/rild:system/bin/rild \
   vendor/htc/endeavoru/proprietary/etc/gps/agps.truststore:system/etc/gps/agps.truststore \
   vendor/htc/endeavoru/proprietary/etc/gps/agps.truststore_lab:system/etc/gps/agps.truststore_lab \
   vendor/htc/endeavoru/proprietary/etc/gps/tigpsrouter:system/etc/gps/tigpsrouter \
@@ -35,15 +34,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libmcphalgps.so:system/lib/libmcphalgps.so \
   vendor/htc/endeavoru/proprietary/bin/navl_server:system/bin/navl_server \
   vendor/htc/endeavoru/proprietary/bin/cplc_main:system/bin/cplc_main \
-  vendor/htc/endeavoru/proprietary/bin/alsa_amixer:system/bin/alsa_amixer \
-  vendor/htc/endeavoru/proprietary/bin/alsa_aplay:system/bin/alsa_aplay \
-  vendor/htc/endeavoru/proprietary/bin/alsa_ctl:system/bin/alsa_ctl \
-  vendor/htc/endeavoru/proprietary/bin/audioloop:system/bin/audioloop \
   vendor/htc/endeavoru/proprietary/bin/snd3008:system/bin/snd3008 \
   vendor/htc/endeavoru/proprietary/bin/rfaudio:system/bin/rfaudio \
-  vendor/htc/endeavoru/proprietary/bin/memlock:system/bin/memlock \
-  vendor/htc/endeavoru/proprietary/bin/l2_profile_exchange:system/bin/l2_profile_exchange \
-  vendor/htc/endeavoru/proprietary/bin/netHDencode:system/bin/netHDencode \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
   vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
   vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
@@ -68,12 +60,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/iw:system/bin/iw \
   vendor/htc/endeavoru/proprietary/bin/nvtest:system/bin/nvtest \
   vendor/htc/endeavoru/proprietary/bin/logcat2:system/bin/logcat2 \
-  vendor/htc/endeavoru/proprietary/bin/htcfs:system/bin/htcfs \
-  vendor/htc/endeavoru/proprietary/bin/omxplayer2:system/bin/omxplayer2 \
   vendor/htc/endeavoru/proprietary/bin/SuplConfig.spl:system/bin/SuplConfig.spl \
-  vendor/htc/endeavoru/proprietary/bin/tegrastats:system/bin/tegrastats \
   vendor/htc/endeavoru/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-  vendor/htc/endeavoru/proprietary/bin/xaplay:system/bin/xaplay \
   vendor/htc/endeavoru/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/endeavoru/proprietary/lib/libril-icera.so:system/lib/libril-icera.so \
   vendor/htc/endeavoru/proprietary/bin/fild:system/bin/fild \
@@ -84,11 +72,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
   vendor/htc/endeavoru/proprietary/bin/patch-X.0.ce:system/bin/patch-X.0.ce \
   vendor/htc/endeavoru/proprietary/bin/poweroff_modem.sh:system/bin/poweroff_modem.sh \
-  vendor/htc/endeavoru/proprietary/bin/poweron_modem_hboot.sh:system/bin/poweron_modem_hboot.sh \
-  vendor/htc/endeavoru/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
+  vendor/htc/endeavoru/proprietary/bin/start_modem.sh:system/bin/start_modem.sh \
   vendor/htc/endeavoru/proprietary/bin/InjectionTool:system/bin/InjectionTool \
   vendor/htc/endeavoru/proprietary/bin/IMCdownload:system/bin/IMCdownload \
-  vendor/htc/endeavoru/proprietary/lib/modules/cdc-acm.ko:system/lib/modules/cdc-acm.ko \
   vendor/htc/endeavoru/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
   vendor/htc/endeavoru/proprietary/bin/mknod:system/bin/mknod \
   vendor/htc/endeavoru/proprietary/etc/Flash_Loader.conf:system/etc/Flash_Loader.conf \
@@ -265,6 +251,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
+  vendor/htc/endeavoru/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
+  vendor/htc/endeavoru/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/nfc.endeavoru.so:system/lib/hw/nfc.endeavoru.so \
