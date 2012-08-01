@@ -37,6 +37,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/cplc_main:system/bin/cplc_main \
   vendor/htc/endeavoru/proprietary/bin/snd3008:system/bin/snd3008 \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
+  vendor/htc/endeavoru/proprietary/bin/GpsConfigFile.txt:system/bin/GpsConfigFile.txt \
+  vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg_pgps:system/bin/GPSCConfigFile.cfg_pgps \
   vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
   vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
