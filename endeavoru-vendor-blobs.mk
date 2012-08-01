@@ -16,10 +16,10 @@
 
 PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
+  vendor/htc/endeavoru/proprietary/bin/rild:system/bin/rild \
   vendor/htc/endeavoru/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/endeavoru/proprietary/bin/rild:system/bin/rild \
   vendor/htc/endeavoru/proprietary/bin/RXN_IntApp:system/bin/RXN_IntApp \
   vendor/htc/endeavoru/proprietary/etc/gps/agps.truststore:system/etc/gps/agps.truststore \
   vendor/htc/endeavoru/proprietary/etc/gps/agps.truststore_lab:system/etc/gps/agps.truststore_lab \
@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/navl_server:system/bin/navl_server \
   vendor/htc/endeavoru/proprietary/bin/cplc_main:system/bin/cplc_main \
   vendor/htc/endeavoru/proprietary/bin/snd3008:system/bin/snd3008 \
-  vendor/htc/endeavoru/proprietary/bin/rfaudio:system/bin/rfaudio \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
   vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
   vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
@@ -52,12 +51,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/auto_hslp_keystore.bks:system/bin/auto_hslp_keystore.bks\
   vendor/htc/endeavoru/proprietary/bin/cand:system/bin/cand \
   vendor/htc/endeavoru/proprietary/bin/client_keystore.bks:system/bin/client_keystore.bks \
-  vendor/htc/endeavoru/proprietary/bin/cluster:system/bin/cluster \
-  vendor/htc/endeavoru/proprietary/bin/cluster_get.sh:system/bin/cluster_get.sh \
-  vendor/htc/endeavoru/proprietary/bin/cluster_set.sh:system/bin/cluster_set.sh \
   vendor/htc/endeavoru/proprietary/bin/hdcp_test:system/bin/hdcp_test \
   vendor/htc/endeavoru/proprietary/bin/hdmid:system/bin/hdmid \
-  vendor/htc/endeavoru/proprietary/bin/hotplug:system/bin/hotplug \
   vendor/htc/endeavoru/proprietary/bin/iw:system/bin/iw \
   vendor/htc/endeavoru/proprietary/bin/nvtest:system/bin/nvtest \
   vendor/htc/endeavoru/proprietary/bin/logcat2:system/bin/logcat2 \
@@ -73,6 +68,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
   vendor/htc/endeavoru/proprietary/bin/patch-X.0.ce:system/bin/patch-X.0.ce \
   vendor/htc/endeavoru/proprietary/bin/poweroff_modem.sh:system/bin/poweroff_modem.sh \
+  vendor/htc/endeavoru/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
   vendor/htc/endeavoru/proprietary/bin/InjectionTool:system/bin/InjectionTool \
   vendor/htc/endeavoru/proprietary/bin/IMCdownload:system/bin/IMCdownload \
   vendor/htc/endeavoru/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
@@ -238,7 +234,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
   vendor/htc/endeavoru/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
   vendor/htc/endeavoru/proprietary/lib/libhtc_dis.so:system/lib/libhtc_dis.so \
-  vendor/htc/endeavoru/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
   vendor/htc/endeavoru/proprietary/lib/libhtcsunny2engine.so:system/lib/libhtcsunny2engine.so \
   vendor/htc/endeavoru/proprietary/lib/libhtcsunnyengine.so:system/lib/libhtcsunnyengine.so \
   vendor/htc/endeavoru/proprietary/lib/libhtcsurfaces.so:system/lib/libhtcsurfaces.so \
@@ -254,7 +249,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
-  vendor/htc/endeavoru/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/nfc.endeavoru.so:system/lib/hw/nfc.endeavoru.so \
   vendor/htc/endeavoru/proprietary/lib/hw/sensors.endeavoru.so:system/lib/hw/sensors.endeavoru.so \
   vendor/htc/endeavoru/proprietary/app/PGPSDownloader.apk:system/app/PGPSDownloader.apk
