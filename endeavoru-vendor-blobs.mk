@@ -16,7 +16,10 @@
 
 PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
+  vendor/htc/endeavoru/proprietary/lib/librilpos.so:system/lib/librilpos.so \
   vendor/htc/endeavoru/proprietary/bin/rild:system/bin/rild \
+  vendor/htc/endeavoru/proprietary/bin/rilposd:system/bin/rilposd \
+  vendor/htc/endeavoru/proprietary/lib/libpos.so:system/lib/libpos.so \
   vendor/htc/endeavoru/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/endeavoru/proprietary/lib/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
@@ -37,12 +40,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/cplc_main:system/bin/cplc_main \
   vendor/htc/endeavoru/proprietary/bin/snd3008:system/bin/snd3008 \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
+  vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
   vendor/htc/endeavoru/proprietary/bin/GpsConfigFile.txt:system/bin/GpsConfigFile.txt \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg_pgps:system/bin/GPSCConfigFile.cfg_pgps \
-  vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
   vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
-  vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts\
+  vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_12.7.27.bts:system/etc/firmware/TIInit_12.7.27.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/WL128x_2.21_1.1.bts:system/etc/firmware/WL128x_2.21_1.1.bts \
