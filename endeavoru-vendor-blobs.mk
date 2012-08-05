@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/client_keystore.bks:system/bin/client_keystore.bks \
   vendor/htc/endeavoru/proprietary/bin/hdcp_test:system/bin/hdcp_test \
   vendor/htc/endeavoru/proprietary/bin/hdmid:system/bin/hdmid \
-  vendor/htc/endeavoru/proprietary/bin/iw:system/bin/iw \
   vendor/htc/endeavoru/proprietary/bin/nvtest:system/bin/nvtest \
   vendor/htc/endeavoru/proprietary/bin/logcat2:system/bin/logcat2 \
   vendor/htc/endeavoru/proprietary/bin/SuplConfig.spl:system/bin/SuplConfig.spl \
