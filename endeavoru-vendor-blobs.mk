@@ -38,12 +38,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libmcphalgps.so:system/lib/libmcphalgps.so \
   vendor/htc/endeavoru/proprietary/bin/navl_server:system/bin/navl_server \
   vendor/htc/endeavoru/proprietary/bin/cplc_main:system/bin/cplc_main \
-  vendor/htc/endeavoru/proprietary/bin/snd3008:system/bin/snd3008 \
+  vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg:system/bin/GPSCConfigFile.cfg \
   vendor/htc/endeavoru/proprietary/bin/pathconfigfile.txt:system/bin/pathconfigfile.txt \
   vendor/htc/endeavoru/proprietary/bin/GpsConfigFile.txt:system/bin/GpsConfigFile.txt \
   vendor/htc/endeavoru/proprietary/bin/GPSCConfigFile.cfg_pgps:system/bin/GPSCConfigFile.cfg_pgps \
-  vendor/htc/endeavoru/proprietary/bin/uim-sysfs:system/bin/uim-sysfs \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
@@ -247,7 +246,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/endeavoru/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/endeavoru/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/endeavoru/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
+  vendor/htc/endeavoru/proprietary/lib/hw/camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
