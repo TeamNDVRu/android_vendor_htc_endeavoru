@@ -226,12 +226,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_HP_AEC.txt:system/etc/soundimage/Sound_Voip_Original_HP_AEC.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_REC_AEC.txt:system/etc/soundimage/Sound_Voip_Original_REC_AEC.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt:system/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt \
-  vendor/htc/endeavoru/proprietary/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
-  vendor/htc/endeavoru/proprietary/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg \
-  vendor/htc/endeavoru/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:system/etc/soundimage/srsfx_trumedia_51.cfg \
-  vendor/htc/endeavoru/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:system/etc/soundimage/srsfx_trumedia_movie.cfg \
-  vendor/htc/endeavoru/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
-  vendor/htc/endeavoru/proprietary/etc/soundimage/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg \
   vendor/htc/endeavoru/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/endeavoru/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
   vendor/htc/endeavoru/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
