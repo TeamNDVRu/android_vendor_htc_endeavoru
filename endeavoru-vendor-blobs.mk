@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libscaladoapi.so:system/lib/libscaladoapi.so \
   vendor/htc/endeavoru/proprietary/lib/libscaladoutil.so:system/lib/libscaladoutil.so \
   vendor/htc/endeavoru/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-  vendor/htc/endeavoru/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
   vendor/htc/endeavoru/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/endeavoru/proprietary/lib/libdumppcm.so:system/lib/libdumppcm.so \
   vendor/htc/endeavoru/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
