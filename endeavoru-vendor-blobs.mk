@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libscalado_htcalbum2.so:system/lib/libscalado_htcalbum2.so \
   vendor/htc/endeavoru/proprietary/lib/libscaladoapi.so:system/lib/libscaladoapi.so \
   vendor/htc/endeavoru/proprietary/lib/libscaladoutil.so:system/lib/libscaladoutil.so \
-  vendor/htc/endeavoru/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/htc/endeavoru/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
   vendor/htc/endeavoru/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/endeavoru/proprietary/lib/libdumppcm.so:system/lib/libdumppcm.so \
@@ -256,3 +255,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/hw/nfc.endeavoru.so:system/lib/hw/nfc.endeavoru.so \
   vendor/htc/endeavoru/proprietary/lib/hw/sensors.endeavoru.so:system/lib/hw/sensors.endeavoru.so \
   vendor/htc/endeavoru/proprietary/app/PGPSDownloader.apk:system/app/PGPSDownloader.apk
+
+
+#  vendor/htc/endeavoru/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
